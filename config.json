@@ -1,0 +1,14 @@
+{
+  "username": "mansbergenheim",
+  "engine_path": "engine/stockfish/stockfish-macos-m1-apple-silicon",
+  "depth": 12,
+  "threads": 2,
+  "hash_mb": 256,
+  "thresholds": {
+    "inaccuracy": 8,
+    "mistake": 15,
+    "blunder": 25
+  },
+  "coach_model": "claude-opus-4-8",
+  "time_classes": []
+}

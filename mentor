@@ -1,0 +1,4 @@
+#!/bin/bash
+# Bekväm wrapper: kör schackmentor med projektets venv oavsett varifrån du står.
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+exec "$ROOT/.venv/bin/python" -m schackmentor "$@"
